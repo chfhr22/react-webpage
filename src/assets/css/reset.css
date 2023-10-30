@@ -1,0 +1,59 @@
+@import url(https://websfont.github.io/nexonLv2/nexonLv2.css);
+
+.nexon {
+    font-family: 'nexonLv2';
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+em {
+    font-style: normal;
+}
+.blind {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+}
+.ir {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+.container {
+    width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.section {
+    padding: 120px 0;
+}
+.section > h2 {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+.section > p {
+    font-size: 22px;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 70px;
+    line-height: 1.5;
+    text-align: center;
+}
